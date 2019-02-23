@@ -1,0 +1,2 @@
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo C:/Users/Gregory/AppData/Local/Temp/sbt-structure.xml; session clear-all
+all {file:/C:/Users/Gregory/Desktop/Official/UMKC/Spring2019/CS5542/Spark%20WordCount/Spark%20WordCount/}root/products {file:/C:/Users/Gregory/Desktop/Official/UMKC/Spring2019/CS5542/Spark%20WordCount/Spark%20WordCount/}root/test:products

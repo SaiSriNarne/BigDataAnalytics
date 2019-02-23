@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7779152b-ad09-441e-a2e7-d4534bbad557" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/hydra.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__asm_asm_3_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_apple_AppleJavaExtensions_1_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_clearspring_analytics_stream_2_7_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_esotericsoftware_kryo_kryo_2_21_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_esotericsoftware_minlog_minlog_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_esotericsoftware_reflectasm_reflectasm_1_07_shaded_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_4_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_4_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_4_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_4_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_github_fommil_netlib_core_1_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_github_rwl_jtransforms_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_google_code_findbugs_jsr305_1_3_9_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_google_guava_guava_14_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_google_inject_guice_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_google_protobuf_protobuf_java_3_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_googlecode_efficient_java_matrix_library_ejml_0_23_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_io7m_xom_xom_1_2_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_ning_compress_lzf_1_0_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_sun_istack_istack_commons_runtime_2_16_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_sun_jersey_contribs_jersey_guice_1_9_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_sun_jersey_jersey_core_1_9_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_sun_jersey_jersey_json_1_9_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_sun_jersey_jersey_server_1_9_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_sun_jersey_jersey_test_framework_jersey_test_framework_grizzly2_1_9_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_sun_xml_bind_jaxb_core_2_2_7_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_sun_xml_bind_jaxb_impl_2_2_7_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_sun_xml_fastinfoset_FastInfoset_1_2_12_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_6_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_twitter_chill_2_11_0_5_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_twitter_chill_java_0_5_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_11_2_3_11_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_typesafe_akka_akka_remote_2_11_2_3_11_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_11_2_3_11_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__com_typesafe_config_1_2_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__commons_beanutils_commons_beanutils_1_7_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__commons_beanutils_commons_beanutils_core_1_8_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__commons_cli_commons_cli_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__commons_codec_commons_codec_1_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__commons_collections_commons_collections_3_2_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__commons_configuration_commons_configuration_1_6_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__commons_digester_commons_digester_1_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__commons_httpclient_commons_httpclient_3_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__commons_io_commons_io_2_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__commons_lang_commons_lang_2_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__commons_net_commons_net_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__de_jollyday_jollyday_0_4_9_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__edu_stanford_nlp_stanford_corenlp_3_9_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__edu_stanford_nlp_stanford_corenlp_3_9_1_models_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__edu_stanford_nlp_stanford_parser_3_9_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_3_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__io_dropwizard_metrics_metrics_graphite_3_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__io_dropwizard_metrics_metrics_json_3_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__io_dropwizard_metrics_metrics_jvm_3_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__io_netty_netty_3_8_0_Final_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__io_netty_netty_all_4_0_29_Final_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__javax_servlet_javax_servlet_api_3_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__javax_xml_bind_jaxb_api_2_2_7_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__javax_xml_bind_jsr173_api_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__jline_jline_0_9_94_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__joda_time_joda_time_2_9_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__log4j_log4j_1_2_17_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__net_java_dev_jets3t_jets3t_0_7_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__net_jpountz_lz4_lz4_1_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__net_razorvine_pyrolite_4_9_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__net_sf_opencsv_opencsv_2_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__net_sf_py4j_py4j_0_9_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__net_sourceforge_f2j_arpack_combined_all_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_avro_avro_1_7_7_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_tests_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_avro_avro_mapred_1_7_7_hadoop2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_commons_commons_compress_1_4_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_3_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_commons_commons_math3_3_4_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_commons_commons_math_2_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_curator_curator_client_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_curator_curator_framework_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_curator_curator_recipes_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_client_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_server_common_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_ivy_ivy_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_lucene_lucene_analyzers_common_4_10_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_lucene_lucene_core_4_10_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_lucene_lucene_queries_4_10_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_lucene_lucene_queryparser_4_10_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_lucene_lucene_sandbox_4_10_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_mesos_mesos_0_21_1_shaded_protobuf_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_parquet_parquet_column_1_7_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_parquet_parquet_common_1_7_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_parquet_parquet_encoding_1_7_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_parquet_parquet_format_2_3_0_incubating_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_parquet_parquet_generator_1_7_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_parquet_parquet_hadoop_1_7_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_parquet_parquet_jackson_1_7_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_spark_spark_catalyst_2_11_1_6_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_spark_spark_core_2_11_1_6_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_spark_spark_graphx_2_11_1_6_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_11_1_6_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_spark_spark_mllib_2_11_1_6_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_11_1_6_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_11_1_6_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_spark_spark_sql_2_11_1_6_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_spark_spark_streaming_2_11_1_6_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_11_1_6_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_xbean_xbean_asm5_shaded_4_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_codehaus_jackson_jackson_jaxrs_1_8_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_codehaus_jackson_jackson_xc_1_8_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_codehaus_janino_commons_compiler_2_7_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_codehaus_janino_janino_2_7_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_codehaus_jettison_jettison_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_glassfish_javax_json_1_0_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_jpmml_pmml_agent_1_1_15_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_jpmml_pmml_model_1_1_15_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_jpmml_pmml_schema_1_1_15_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_json4s_json4s_ast_2_11_3_2_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_json4s_json4s_core_2_11_3_2_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_json4s_json4s_jackson_2_11_3_2_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_mortbay_jetty_jetty_util_6_1_26_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_objenesis_objenesis_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_roaringbitmap_RoaringBitmap_0_5_11_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_11_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_7_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_scala_lang_scalap_2_11_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_scalanlp_breeze_2_11_0_11_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_11_0_11_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_slf4j_jcl_over_slf4j_1_7_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_slf4j_jul_to_slf4j_1_7_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_12_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_slf4j_slf4j_log4j12_1_7_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_sonatype_sisu_inject_cglib_2_2_1_v20090111_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_spark_project_spark_unused_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_spire_math_spire_2_11_0_7_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_spire_math_spire_macros_2_11_0_7_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_tachyonproject_tachyon_client_0_8_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_tachyonproject_tachyon_underfs_hdfs_0_8_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_tachyonproject_tachyon_underfs_local_0_8_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_tachyonproject_tachyon_underfs_s3_0_8_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_tukaani_xz_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_uncommons_maths_uncommons_maths_1_2_2a_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__org_xerial_snappy_snappy_java_1_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__oro_oro_2_0_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__stax_stax_api_1_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__xalan_xalan_2_7_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__xerces_xercesImpl_2_8_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__xml_apis_xml_apis_1_3_03_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/libraries/sbt__xmlenc_xmlenc_0_52_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/modules/Lab1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/modules/root-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/scala_compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/ansdict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/imgid_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/qdict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/release/test/answers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/release/test/img_ids.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/release/test/questions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/release/test/types.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/release/train/answers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/release/train/img_ids.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/release/train/questions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/release/train/types.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/test-qtype.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/test.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/train.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/valid.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Data/cocoqa/vocab-dict.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000001375.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000012379.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000012757.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000028961.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000035030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000039708.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000039884.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000042418.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000045524.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000048489.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000049884.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000069934.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000073997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000086117.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000086514.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000093090.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000093860.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000094863.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000095533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000096754.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000098689.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000100865.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000103881.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000109199.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000109522.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000111842.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000111972.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000114424.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000114474.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000114705.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000116851.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000121556.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000125036.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000128282.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000138368.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000139679.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000145127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000156406.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000156836.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000163011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000163991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000174282.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000194850.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000205367.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000210549.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000211281.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000213577.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000217463.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000218784.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000218939.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000223451.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000223827.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000238124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000238399.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000238712.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000247545.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000249805.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000250639.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000250880.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000255941.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000262041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000262588.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000264884.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000273094.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000277491.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000278494.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000278697.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000280770.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000281105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000281850.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000284770.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000284964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000293159.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000293979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000299676.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000300024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000300467.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000306975.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000309635.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000318637.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000318937.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000321304.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000323030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000324603.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000327063.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000327575.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000329394.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000330578.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000333258.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000333749.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000334981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000337661.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000344599.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000348217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000349744.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000350170.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000351610.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000354846.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000361930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000362553.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000363318.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000364160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000365472.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000374904.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000376843.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000377716.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000378827.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000383756.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000388772.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000389188.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000389638.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000389946.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000391971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000392776.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000396330.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000397064.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000397772.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000401768.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000406772.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000408978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000409134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000409374.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000431650.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000433985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000435951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000437816.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000440984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000443296.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000456637.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000457207.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000457258.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000460115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000471261.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000472393.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000472938.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000479314.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000480451.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000482659.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000483304.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000483630.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000485499.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000486606.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000494257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000496434.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000499274.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000517251.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000519533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000522234.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000528870.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000529311.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000529624.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000534681.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000542090.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000543769.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000544001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000544220.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000545116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000548136.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000550652.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000553997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000558871.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000559762.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000564496.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000565600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000575826.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/000000577488.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/court.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/court/courtStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/grove/000000019675.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/grove/000000149381.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/grove/000000207654.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/grove/000000273387.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/grove/000000334080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/grove/000000350969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/grove/000000502616.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/grove/000000523026.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/grove/000000557860.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/grove/000000562398.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/grove/grove.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/grove/groveStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000008881.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000035478.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000061830.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000063182.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000067082.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000083262.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000104435.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000131731.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000147301.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000148786.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000169282.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000183231.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000186179.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000190806.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000201930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000202850.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000222344.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000228222.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000307781.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000313134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000319522.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000361193.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000362524.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000393127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000415839.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000416652.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000417887.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000421502.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000445517.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000471837.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000472455.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000494162.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000502616.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000528275.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000538748.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000546690.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/000000571803.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/meadow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/meadow/meadowStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/playground/000000013362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/playground/000000165319.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/playground/000000218711.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/playground/000000332038.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/playground/000000333946.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/playground/000000389946.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/playground/000000393607.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/playground/000000470621.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/playground/000000510220.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/playground/playground.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/playground/playgroundStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/row boat/000000052562.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/row boat/row boat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/row boat/row boatStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/rowboat/000000279147.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/rowboat/000000427679.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/rowboat/000000540943.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/rowboat/rowboat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/rowboat/rowboatStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000000109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000016317.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000017392.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000017946.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000027919.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000040143.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000047734.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000050535.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000060602.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000061524.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000066878.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000069284.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000072509.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000073234.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000074461.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000099094.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000106194.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000126536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000129557.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000136736.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000138861.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000143386.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000145989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000152341.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000159220.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000166589.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000169863.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000184161.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000187810.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000211113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000214658.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000218196.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000225087.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000229138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000248280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000252272.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000258823.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000258890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000269973.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000270035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000276950.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000277448.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000281262.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000293689.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000298141.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000309491.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000313710.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000315504.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000319766.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000335027.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000360604.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000388106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000398177.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000406359.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000417089.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000417619.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000418479.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000420403.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000420629.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000423829.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000428126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000445990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000457169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000466153.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000472922.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000478249.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000478577.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000484992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000513237.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000515572.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000519186.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000520679.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000540863.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000553573.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000555833.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000572689.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000576956.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/000000578890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/walkway.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/output/walkway/walkwayStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/project/target/config-classes/$54ef78197f2c75675c23$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/project/target/config-classes/$54ef78197f2c75675c23$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/project/target/config-classes/$54ef78197f2c75675c23.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/project/target/config-classes/$54ef78197f2c75675c23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/project/target/config-classes/$a900ad3359d51d9c5c2e$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/project/target/config-classes/$a900ad3359d51d9c5c2e.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/project/target/config-classes/$a900ad3359d51d9c5c2e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$0208979fe9c0c2a9bd7d$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$0208979fe9c0c2a9bd7d$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$0208979fe9c0c2a9bd7d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$0208979fe9c0c2a9bd7d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$070953827cef1e808141$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$070953827cef1e808141$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$070953827cef1e808141.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$070953827cef1e808141.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$27d3c07198ed22555055$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$27d3c07198ed22555055$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$27d3c07198ed22555055.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$27d3c07198ed22555055.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$d973106d05bd0607cfbd$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$d973106d05bd0607cfbd$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$d973106d05bd0607cfbd.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$d973106d05bd0607cfbd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$e474271bf9ac0bf8ac45$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$e474271bf9ac0bf8ac45$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$e474271bf9ac0bf8ac45.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$e474271bf9ac0bf8ac45.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$fcbedd72cec60b72c5fc$$anonfun$$sbtdef$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$fcbedd72cec60b72c5fc$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$fcbedd72cec60b72c5fc$$anonfun$$sbtdef$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$fcbedd72cec60b72c5fc$$anonfun$$sbtdef$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$fcbedd72cec60b72c5fc$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$fcbedd72cec60b72c5fc.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/config-classes/$fcbedd72cec60b72c5fc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/default/lab1-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/default/lab1-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/default/spark-wordcount-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/default/spark-wordcount-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/default/sparkwordcount-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/default/sparkwordcount-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-lab1-build-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-lab1-build-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-lab1-build-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-lab1-build-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-lab1-build-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-lab1-build-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-lab1-build-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-lab1-build-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-lab1-build-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-lab1-build-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-lab1-build-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-lab1-build-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-lab1-build-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-spark-wordcount-build-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-spark-wordcount-build-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-spark-wordcount-build-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-spark-wordcount-build-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-spark-wordcount-build-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-spark-wordcount-build-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-spark-wordcount-build-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-spark-wordcount-build-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-spark-wordcount-build-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-spark-wordcount-build-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-spark-wordcount-build-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-spark-wordcount-build-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-spark-wordcount-build-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-sparkwordcount-build-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-sparkwordcount-build-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-sparkwordcount-build-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-sparkwordcount-build-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-sparkwordcount-build-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-sparkwordcount-build-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-sparkwordcount-build-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-sparkwordcount-build-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-sparkwordcount-build-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-sparkwordcount-build-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-sparkwordcount-build-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-sparkwordcount-build-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/default-sparkwordcount-build-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/ivy-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/$global/$global/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/$global/update/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/compile/compile/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/project/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/src/main/scala/CoreNLP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/src/main/scala/ExtractTrips.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/default/lab1$sbt_2.11/1.0/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/default/lab1$sbt_2.11/1.0/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/default/lab1$sources_2.11/1.0/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/default/lab1$sources_2.11/1.0/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/default/lab1_2.11/1.0/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/default/lab1_2.11/1.0/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/lab1/lab1$sbt_2.11/1.0/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/lab1/lab1$sbt_2.11/1.0/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/lab1/lab1$sources_2.11/1.0/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/lab1/lab1$sources_2.11/1.0/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/lab1/lab1_2.11/1.0/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/lab1/lab1_2.11/1.0/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sbt_2.11-default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sources_2.11-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sources_2.11-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sources_2.11-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sources_2.11-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sources_2.11-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sources_2.11-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sources_2.11-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sources_2.11-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sources_2.11-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sources_2.11-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sources_2.11-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sources_2.11-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1$sources_2.11-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1_2.11-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1_2.11-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1_2.11-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1_2.11-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1_2.11-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1_2.11-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1_2.11-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1_2.11-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1_2.11-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1_2.11-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1_2.11-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1_2.11-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/default-lab1_2.11-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/ivy-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sbt_2.11-default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sources_2.11-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sources_2.11-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sources_2.11-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sources_2.11-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sources_2.11-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sources_2.11-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sources_2.11-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sources_2.11-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sources_2.11-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sources_2.11-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sources_2.11-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sources_2.11-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1$sources_2.11-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1_2.11-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1_2.11-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1_2.11-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1_2.11-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1_2.11-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1_2.11-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1_2.11-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1_2.11-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1_2.11-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1_2.11-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1_2.11-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1_2.11-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/lab1-lab1_2.11-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sbt_2.11-default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sources_2.11-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sources_2.11-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sources_2.11-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sources_2.11-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sources_2.11-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sources_2.11-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sources_2.11-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sources_2.11-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sources_2.11-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sources_2.11-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sources_2.11-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sources_2.11-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount$sources_2.11-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount_2.11-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount_2.11-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount_2.11-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount_2.11-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount_2.11-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount_2.11-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount_2.11-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount_2.11-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount_2.11-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount_2.11-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount_2.11-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount_2.11-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/reports/sparkwordcount-sparkwordcount_2.11-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/sparkwordcount/sparkwordcount$sbt_2.11/1.0/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/sparkwordcount/sparkwordcount$sbt_2.11/1.0/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/sparkwordcount/sparkwordcount$sources_2.11/1.0/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/sparkwordcount/sparkwordcount$sources_2.11/1.0/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/sparkwordcount/sparkwordcount_2.11/1.0/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/resolution-cache/sparkwordcount/sparkwordcount_2.11/1.0/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/scala-2.11/classes/CoreNLP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/scala-2.11/classes/ExtractTrips$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/scala-2.11/classes/ExtractTrips$$anonfun$imgIDtoFilename$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/scala-2.11/classes/ExtractTrips$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/scala-2.11/classes/ExtractTrips$$anonfun$main$2$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/scala-2.11/classes/ExtractTrips$$anonfun$main$2$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/scala-2.11/classes/ExtractTrips$$anonfun$main$2$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/scala-2.11/classes/ExtractTrips$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/scala-2.11/classes/ExtractTrips$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/scala-2.11/classes/ExtractTrips.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/scala-2.11/sparkwordcount_2.11-1.0-tests.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/scala-2.11/sparkwordcount_2.11-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/$global/$global/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/$global/$global/dumpStructureTo/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/$global/update/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/$global/updateSbtClassifiers/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/compile/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/packageBin/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/packageBin/$global/streams/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/$global/$global/definedTestNames/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/$global/$global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/compile/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/compileIncremental/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/copyResources/$global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/copyResources/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/definedTests/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/fullClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/loadedTestFrameworks/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/mainClass/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/packageBin/$global/streams/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/packageBin/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/packageBin/$global/streams/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/target/streams/test/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Lab1" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1215104700">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="1" />
+          <entry key="sbt" value="1" />
+          <entry key="scala" value="1" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Scala" value="1" />
+          <entry key="sbt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="252" />
+          <entry key="sbt" value="14" />
+          <entry key="scala" value="6667" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="252" />
+          <entry key="Scala" value="6667" />
+          <entry key="sbt" value="14" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1298342788">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="scala" value="40" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Scala" value="40" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="jpg" value="3" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="3" />
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ExtractTrips.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/fountain/fountainStats.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/lake/lakeStats.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/output/pond/pondStats.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/CoreNLP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>for keyword</find>
+      <find>keyword:</find>
+      <find>fence</find>
+      <find>test code</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/SparkWordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/CoreNLP.java" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/ExtractTrips.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="1926" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="fountain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="lake" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="pond" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550867528264" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ExtractTrips" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ExtractTrips" />
+      <module name="Lab1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ExtractTrips" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Lab1" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="lab1 [file:/C:/BDA/CS5542_Lab/Lab1/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="lab1-build [file:/C:/BDA/CS5542_Lab/Lab1/]" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4652590323068" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1170842289" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="3066353247" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="379200330" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="C:/CS5560GregBrownICPSubmission/ICP10/SparqlQuery/SparqlQuery" value="PREVIEW" />
+        <entry key="C:/UMKCHackaroo2018/FinanceAI" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Official/UMKC/CS5560/CS5560_CameronLEcuyer_ICPSubmission-master/CS5560_CameronLEcuyer_ICPSubmission-master/ICP_4/Spark WordCount" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Official/UMKC/CS5560/Tutorial 3 Source Code/SparkOpenIE_WordNET_LDA" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Official/UMKC/Spring2019/CS5542/Spark WordCount/Spark WordCount" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7779152b-ad09-441e-a2e7-d4534bbad557" name="Default Changelist" comment="" />
+      <created>1550781992905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550781992905</updated>
+      <workItem from="1550781994357" duration="10771000" />
+      <workItem from="1550820826668" duration="6538000" />
+      <workItem from="1550827514186" duration="10930000" />
+      <workItem from="1550855645970" duration="2569000" />
+      <workItem from="1550858512074" duration="506000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="31314000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26963562" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48773986" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5133603" side_tool="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4882591" weight="0.3285968" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="sbt" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/java/io/FileOutputStream.class" />
+    <entry file="file://$PROJECT_DIR$/output/fenceStats.txt" />
+    <entry file="file://$PROJECT_DIR$/output/fence.txt" />
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/lake/000000128932.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/lake/000000216998.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/lake/000000221012.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/CoreNLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ExtractTrips.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/fountain/fountainStats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/lake/lakeStats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/pond/pondStats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
