@@ -42,7 +42,7 @@ def spice():
 def main():
     bleu()
     cider()
-    print('meter = %s 0.03245')
+    meteor()
     rouge()
 
 main()

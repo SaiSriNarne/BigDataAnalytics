@@ -257,8 +257,8 @@ class BleuScorer(object):
                 bleus[k] *= math.exp(1 - 1/ratio)
 
         if verbose > 0:
-            #print(totalcomps)
-            print('''testlen':3021, 'reflen':2967, 'guess':[3021,2029,1902,1400], 'correct':[1009,800,624,452]''')
+            print(totalcomps)
+
             print("ratio:", ratio)
 
         self._score = bleus
