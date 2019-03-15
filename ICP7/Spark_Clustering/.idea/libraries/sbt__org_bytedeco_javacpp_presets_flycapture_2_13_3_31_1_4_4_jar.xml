@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.bytedeco.javacpp-presets:flycapture:2.13.3.31-1.4.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.bytedeco.javacpp-presets/flycapture/jars/flycapture-2.13.3.31-1.4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.bytedeco.javacpp-presets/flycapture/srcs/flycapture-2.13.3.31-1.4.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
