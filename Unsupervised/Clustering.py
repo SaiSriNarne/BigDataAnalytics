@@ -131,11 +131,7 @@ def covnet_transform(covnet_model, raw_images):
 vgg16_output = covnet_transform(vgg16_model, X_train)
 print("VGG16 flattened output has {} features".format(vgg16_output.shape[1]))
 
-vgg19_output = covnet_transform(vgg19_model, X_train)
-print("VGG19 flattened output has {} features".format(vgg19_output.shape[1]))
 
-resnet50_output = covnet_transform(resnet50_model, X_train)
-print("ResNet50 flattened output has {} features".format(resnet50_output.shape[1]))
 
 
 def create_fit_PCA(data, n_components=None):
@@ -144,8 +140,6 @@ def create_fit_PCA(data, n_components=None):
 
     return p
 vgg16_pca = create_fit_PCA(vgg16_output)
-vgg19_pca = create_fit_PCA(vgg19_output)
-resnet50_pca = create_fit_PCA(resnet50_output)
 
 def pca_cumsum_plot(pca):
     plt.plot(np.cumsum(pca.explained_variance_ratio_))
@@ -154,12 +148,10 @@ def pca_cumsum_plot(pca):
     plt.show()
 
 pca_cumsum_plot(vgg16_pca)
-pca_cumsum_plot(vgg19_pca)
-pca_cumsum_plot(resnet50_pca)
+
 
 vgg16_output_pca = vgg16_pca.transform(vgg16_output)
-vgg19_output_pca = vgg19_pca.transform(vgg19_output)
-resnet50_output_pca = resnet50_pca.transform(resnet50_output)
+
 
 
 def create_train_kmeans(data, number_of_clusters=len(codes)):
@@ -199,47 +191,30 @@ print("KMeans (PCA): \n")
 print("VGG16")
 K_vgg16_pca = create_train_kmeans(vgg16_output_pca)
 
-print("\nVGG19")
-K_vgg19_pca = create_train_kmeans(vgg19_output_pca)
 
-print("\nResNet50")
-K_resnet50_pca = create_train_kmeans(resnet50_output_pca)
 
 print("GMM (PCA): \n")
 
 print("VGG16")
 G_vgg16_pca = create_train_gmm(vgg16_output_pca)
 
-print("\nVGG19")
-G_vgg19_pca = create_train_gmm(vgg19_output_pca)
 
-print("\nResNet50")
-G_resnet50_pca = create_train_gmm(resnet50_output_pca)
 
 print("KMeans: \n")
 
 print("VGG16:")
 K_vgg16 = create_train_kmeans(vgg16_output)
 
-print("\nVGG19:")
-K_vgg19 = create_train_kmeans(vgg19_output)
 
-print("\nResNet50:")
-K_resnet50 = create_train_kmeans(resnet50_output)
 
 k_vgg16_pred_pca = K_vgg16_pca.predict(vgg16_output_pca)
-k_vgg19_pred_pca = K_vgg19_pca.predict(vgg19_output_pca)
-k_resnet50_pred_pca = K_resnet50_pca.predict(resnet50_output_pca)
 
 # KMeans with CovNet outputs
 k_vgg16_pred = K_vgg16.predict(vgg16_output)
-k_vgg19_pred = K_vgg19.predict(vgg19_output)
-k_resnet50_pred = K_resnet50.predict(resnet50_output)
+
 
 # Gaussian Mixture with PCA outputs
-g_resnet50_pred_pca = G_resnet50_pca.predict(resnet50_output_pca)
 g_vgg16_pred_pca = G_vgg16_pca.predict(vgg16_output_pca)
-g_vgg19_pred_pca = G_vgg19_pca.predict(vgg19_output_pca)
 
 
 def cluster_label_count(clusters, labels):
@@ -267,36 +242,22 @@ def cluster_label_count(clusters, labels):
 vgg16_cluster_count = cluster_label_count(k_vgg16_pred, y_train)
 vgg16_cluster_count_pca = cluster_label_count(k_vgg16_pred_pca, y_train)
 
-# VGG19 KMeans
-vgg19_cluster_count = cluster_label_count(k_vgg19_pred, y_train)
-vgg19_cluster_count_pca = cluster_label_count(k_vgg19_pred_pca, y_train)
-
-# ResNet50 KMeans
-resnet_cluster_count = cluster_label_count(k_resnet50_pred, y_train)
-resnet_cluster_count_pca = cluster_label_count(k_resnet50_pred_pca, y_train)
-
 # GMM
 g_vgg16_cluster_count_pca = cluster_label_count(g_vgg16_pred_pca, y_train)
-g_vgg19_cluster_count_pca = cluster_label_count(g_vgg19_pred_pca, y_train)
-g_resnet50_cluster_count_pca = cluster_label_count(g_resnet50_pred_pca, y_train)
+
 vgg16_cluster_code = ["c", "a", "b", "d"]
 vgg16_cluster_code_pca = ["c", "a", "b", "d"]
 
-vgg19_cluster_code = ["a", "b", "d", "c"]
-vgg19_cluster_code_pca = ["a", "b", "d", "c"]
+
 
 vgg16_pred_codes = [vgg16_cluster_code[x] for x in k_vgg16_pred]
 vgg16_pred_codes_pca = [vgg16_cluster_code_pca[x] for x in k_vgg16_pred_pca]
-vgg19_pred_codes = [vgg19_cluster_code[x] for x in k_vgg19_pred]
-vgg19_pred_codes_pca = [vgg19_cluster_code_pca[x] for x in k_vgg19_pred_pca]
+
 
 
 def all_covnet_transform(data):
     vgg16 = covnet_transform(vgg16_model, data)
-    vgg19 = covnet_transform(vgg19_model, data)
-    resnet50 = covnet_transform(resnet50_model, data)
-
-    return vgg16, vgg19, resnet50
+    return vgg16
 
 
 def image_load_to_cluster_count(codes):
@@ -312,42 +273,27 @@ def image_load_to_cluster_count(codes):
     data, labels = shuffle_data(images, labels)
 
     # Get covnet outputs
-    vgg16_output, vgg19_output, resnet50_output = all_covnet_transform(data)
+    vgg16_output = all_covnet_transform(data)
 
     # Get PCA transformations
     vgg16_output_pca = create_fit_PCA(vgg16_output).transform(vgg16_output)
-    vgg19_output_pca = create_fit_PCA(vgg19_output).transform(vgg19_output)
-    resnet50_output_pca = create_fit_PCA(resnet50_output).transform(resnet50_output)
+
 
     # Cluster
     clusters = len(codes)
 
     K_vgg16_pred = create_train_kmeans(vgg16_output, clusters).predict(vgg16_output)
-    K_vgg19_pred = create_train_kmeans(vgg19_output, clusters).predict(vgg19_output)
-    K_resnet50_pred = create_train_kmeans(resnet50_output, clusters).predict(resnet50_output)
     K_vgg16_pred_pca = create_train_kmeans(vgg16_output_pca, clusters).predict(vgg16_output_pca)
-    K_vgg19_pred_pca = create_train_kmeans(vgg19_output_pca, clusters).predict(vgg19_output_pca)
-    K_resnet50_pred_pca = create_train_kmeans(resnet50_output_pca, clusters).predict(resnet50_output_pca)
     G_vgg16_pred_pca = create_train_gmm(vgg16_output_pca, clusters).predict(vgg16_output_pca)
-    G_vgg19_pred_pca = create_train_gmm(vgg19_output_pca, clusters).predict(vgg19_output_pca)
-    G_resnet50_pred_pca = create_train_gmm(resnet50_output_pca, clusters).predict(resnet50_output_pca)
+
 
     # Count
     vgg16_cluster_count = cluster_label_count(K_vgg16_pred, labels)
     vgg16_cluster_count_pca = cluster_label_count(K_vgg16_pred_pca, labels)
 
-    # VGG19 KMeans
-    vgg19_cluster_count = cluster_label_count(K_vgg19_pred, labels)
-    vgg19_cluster_count_pca = cluster_label_count(K_vgg19_pred_pca, labels)
-
-    # ResNet50 KMeans
-    resnet_cluster_count = cluster_label_count(K_resnet50_pred, labels)
-    resnet_cluster_count_pca = cluster_label_count(K_resnet50_pred_pca, labels)
-
     # GMM
     g_vgg16_cluster_count_pca = cluster_label_count(G_vgg16_pred_pca, labels)
-    g_vgg19_cluster_count_pca = cluster_label_count(G_vgg19_pred_pca, labels)
-    g_resnet50_cluster_count_pca = cluster_label_count(G_resnet50_pred_pca, labels)
+
 
     print("KMeans VGG16: ")
     print(vgg16_cluster_count)
@@ -355,20 +301,8 @@ def image_load_to_cluster_count(codes):
     print(vgg16_cluster_count_pca)
     print("\nGMM VGG16: ")
     print(g_vgg16_cluster_count_pca)
-    print("\nKMeans VGG19: ")
-    print(vgg19_cluster_count)
-    print("\nKMeans VGG19 (PCA): ")
-    print(vgg19_cluster_count_pca)
-    print("GMM VGG19 (PCA): ")
-    print(g_vgg19_cluster_count_pca)
-    print("KMeans Resnet50: ")
-    print(resnet_cluster_count)
-    print("Kmeans Resnet50 (PCA): ")
-    print(resnet_cluster_count_pca)
-    print("GMM Resnet50 (PCA): ")
-    print(g_resnet50_cluster_count_pca)
 
-    return K_vgg16_pred, K_vgg16_pred_pca, K_vgg19_pred, K_vgg19_pred_pca, G_vgg19_pred_pca, images, labels
+    return K_vgg16_pred, K_vgg16_pred_pca, images, labels
 
 codes = ["t1","t2","b","d"]
 outputs = image_load_to_cluster_count(codes)
